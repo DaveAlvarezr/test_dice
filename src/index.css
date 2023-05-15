@@ -1,4 +1,41 @@
 body {
   color: white;
-  background: #223;
+  background-image: url("https://img.freepik.com/foto-gratis/vista-aerea-pila-fichas-casino-mesa-poquer-verde_23-2147881186.jpg?w=1380&t=st=1684173177~exp=1684173777~hmac=f8063c0692134a24fb154a5b69e140de4aa79b018943dd812ec9ab227afd28c8");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+}
+
+.dice {
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  color: black;
+  font-size: 50pt;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 5px 5px black;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: purple;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 1px black;
+}
+
+.btn:hover {
+  color: purple;
+  background-color: aquamarine;
 }

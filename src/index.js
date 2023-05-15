@@ -1,3 +1,9 @@
-const message = document.querySelector(".message");
+const btn = document.querySelector(".btn");
+const dice = document.querySelector(".dice");
 
-message.innerHTML = "<h2>Hola, somos Lucía y Dave</h2>";
+btn.addEventListener("click", function task() {
+  const decimalNumber = Math.random() * 6;
+  const randomNumber = Math.ceil(decimalNumber);
+
+  dice.innerHTML = randomNumber;
+});
